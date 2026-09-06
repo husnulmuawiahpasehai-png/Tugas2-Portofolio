@@ -25,7 +25,6 @@ Website ini dibuat menggunakan:
 
 * HTML
 * CSS
-* JavaScript
 
 ## 🎯 Tujuan
 
