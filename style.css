@@ -534,12 +534,9 @@ footer.site-footer {
     min-height: 650px;
     padding: 120px 8% 80px;
     box-sizing: border-box;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
-  
     background-color: #07264f;
     background-size: cover;
     background-position: center;
@@ -555,15 +552,19 @@ footer.site-footer {
 }
 
 #experience .section-head {
-    margin-bottom: 30px;
+    width: 100%;
+    max-width: none;
+    text-align: center;
+    margin: 0 auto 30px;
 }
 
 #experience .section-head h2 {
     color: #ffffff;
     font-family: "Space Grotesk", sans-serif;
-    font-size: 42px;
+    font-size: 55px;
     font-weight: 700;
     margin: 0;
+    text-align: center !important;
 }
 
 #experience .exp-panel {
@@ -583,15 +584,10 @@ footer.site-footer {
     font-size: 17px;
     line-height: 1.8;
     margin: 0;
-}
-
-#experience .exp-panel:hover {
-    transform: scale(1.02);
-    transition: transform 0.3s ease;
+    text-align: justify !important;
 }
 
 @media (max-width: 768px) {
-
     #experience {
         min-height: 600px;
         padding: 110px 5% 60px;
@@ -610,15 +606,5 @@ footer.site-footer {
         font-size: 15px;
         line-height: 1.7;
     }
-}
-
-.section-head h2 {
-    text-align: center;
-    font-size: 100px;
-}
-
-.section-head h2 {
-    text-align: center !important;
-    font-size: 75px !important;
 }
 
